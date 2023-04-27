@@ -107,10 +107,10 @@
 
 @media only screen and (max-width: 776px) {
     .index-bg-img {
-        background-image: url(./images/real\ estate.jpg);
+        background-image: url(./assest/images/real-estate.jpg);
         background-position: top;
         background-repeat: no-repeat;
-        background-color: rgba(142, 142, 141, 0.797) !important;
+        background-color: black !important;
         background-blend-mode: soft-light !important;
 
 
@@ -206,10 +206,6 @@ margin-left: 50%;
     padding-bottom: 2% !important;
 }
 
-
-
-
-
 .wrapper {
     display: inline-block;
     text-align: center;
@@ -271,6 +267,70 @@ margin-left: 50%;
     font-size: 30px !important;
     font-weight: 600 !important;
 }
+
+/* =================================== i ma section media quary code ================================== */
+@media only screen and (max-width: 767px) {
+    .my-quote {
+      margin-top: 0;
+    }
+  
+    .iam-heading {
+      font-size: 20px !important;
+      margin-top: 10px;
+    }
+  
+    .iam-heading-two {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+  
+    .so-far {
+      font-size: 20px !important;
+    }
+  
+    .buying {
+      font-size: 24px !important;
+      margin-top: 20px;
+    }
+  
+    .boobie {
+      margin-left: 0;
+      margin-top: 20px;
+      font-size: 26px !important;
+      font-weight: 600 !important;
+    }
+  }
+  @media (max-width: 400px) {
+    .my-quote {
+    font-size: 18px;
+    margin-top: -20%;
+    }
+    
+    .iam-heading {
+    margin-top: 15px;
+    font-size: 20px !important;
+    }
+    
+    .iam-heading-two {
+    font-size: 30px;
+    margin-top: 15px;
+    }
+    
+    .so-far {
+    font-size: 18px !important;
+    }
+    
+    .buying {
+    font-size: 20px !important;
+    margin-top: 25px;
+    }
+    
+    .boobie {
+    margin-left: 50%;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    }
+    }
 
 /* ============================================ jayne ============================ */
 .jayne-heading {
