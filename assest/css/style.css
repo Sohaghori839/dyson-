@@ -265,3 +265,30 @@ margin-left: 50%;
     font-size: 30px !important;
     font-weight: 400 !important;
 }
+/* =========================================== JOE carlo============================================== */
+.JOE-pic{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    margin-left:50%;
+}
+
+/* ================================================= marketing-strategy ================================== */
+.marketing-q{
+    color: #f3b90c;
+    font-size:2rem;
+}
+.marketig-heading{
+    margin-top: 25px;
+     font-size: 27px !important;
+     font-weight: 400;
+     line-height: 1rem;
+}
+.Owner{
+    margin-left: 80%;
+    font-size: 25px !important;
+    font-weight: 300 !important;
+}
+.marketing-strategy{
+    margin-top: -18%;
+}
