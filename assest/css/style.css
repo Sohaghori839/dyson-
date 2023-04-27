@@ -266,11 +266,43 @@ margin-left: 50%;
     font-weight: 400 !important;
 }
 /* =========================================== JOE carlo============================================== */
-.JOE-pic{
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 80vh;
-    margin-left:50%;
+#joe-carocciolo{
+    background-color: #000000;
+    margin-top:1%;
+}
+.joe-logo{
+    margin-top: 4%;
+}
+.joe-text h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight:300 ;
+}
+.joe-next-text {
+    color: white !important;
+    font-size: 2rem !important;
+    text-align: center;
+    font-weight: 400;
+}
+.joe-pic img{
+  height: 115vh;
+  margin-left: 1.5%;
+}
+.joe-q{
+    color: white;
+    text-align: center;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+}
+.pass-world{
+    color: #eeaa30 !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    margin-top: 5%;
+}
+.bottom-line{
+    margin-top: -7%;
 }
 
 /* ================================================= marketing-strategy ================================== */
@@ -291,4 +323,31 @@ margin-left: 50%;
 }
 .marketing-strategy{
     margin-top: -18%;
+}
+
+/* =============================================== money ======================================= */
+
+.money-heading{
+    margin-top: 25px;
+     font-size: 32px !important;
+     font-weight: 400;
+     line-height: 1rem;
+     color:  #eeaa30;
+}
+.money-heading-2{
+    color: white;
+    font-size: 2rem !important;
+    font-weight: 400;
+  margin-top: 5%;
+}
+.money-heading-num{
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.email a{
+    color: #eeaa30;
+    font-size: 2rem;
+    text-decoration: none;
+   font-weight: 400;
 }
