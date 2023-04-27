@@ -1,0 +1,255 @@
+/* body{
+    background-color: black;
+} */
+/* ============================================== main index.html page ===================================== */
+.hero-right{
+    margin: 15%;
+    /* color: #423e4d; */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.hero-right h1 {
+    padding-top: 10px;
+    font-size: 21px !important;
+}
+
+.hero-right .dyson-hero{
+    text-align: center;
+}
+
+.hero-btn {
+    padding: 5px 10px 5px 10px !important;
+    text-align: center;
+    /* font-weight: bold !important; */
+    font-size: 18px;
+    margin-left: 10%;
+    background-color: #000000 !important;
+    border: 2px solid #f3b90c !important;
+    border-radius: 12px !important;
+    color: white !important;
+}
+
+.hero-right h4 {
+    color: rgb(83, 81, 81);
+    font-size: 20px;
+    margin-top: 10%;
+    line-height: 4vh;
+    text-align: center;
+    margin-right: 10%;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.hero-left img {
+    padding: .5% .5%;
+    height: 100%;
+
+}
+
+/* code change */
+
+.clipped-section2 {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 100%);
+
+}
+
+.icon-sectiont img {
+    height: 100% !important;
+    padding-top: 1%;
+
+}
+
+/* =================================== media quary for main index.html page ========================== */
+
+
+@media only screen and (max-width: 1720px) and (min-width: 1000px) {
+    .hero-right span {
+        text-align: right;
+        font-size: 24px !important;
+        font-weight: bold;
+    }
+
+    .hero-right p {
+        font-size: 18px !important;
+        /* font-weight: bold; */
+
+    }
+
+    .hero-right h4 {
+        font-size: 42 !important;
+        padding-top: 10% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+    .hero-right span {
+        text-align: right;
+        font-size: 15px !important;
+        font-weight: bold;
+    }
+
+    .hero-right p {
+        font-size: 17px !important;
+        /* font-weight: bold; */
+
+    }
+
+    .hero-right h4 {
+        font-size: 10 !important;
+        padding-top: 10% !important;
+    }
+
+    .hero-btn {
+        padding: 0px 10px 5px 10px !important;
+        /* font-size: 15px !important; */
+        /* margin-left: 10% !important; */
+    }
+
+}
+
+@media only screen and (max-width: 776px) {
+    .index-bg-img {
+        background-image: url(./images/real\ estate.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: rgba(142, 142, 141, 0.797) !important;
+        background-blend-mode: soft-light !important;
+
+
+    }
+
+    .hero-right span {
+        text-align: right;
+        font-size: 35px !important;
+        font-weight: bold;
+    }
+
+    .hero-right p {
+        font-size: 16px !important;
+        /* font-weight: bold; */
+
+    }
+
+    .hero-right h4 {
+        font-size: 10 !important;
+        padding-top: 10% !important;
+    }
+
+    .hero-btn {
+        padding: 0px 10px 5px 10px !important;
+        /* font-size: 15px !important; */
+        /* margin-left: 10% !important; */
+    }
+
+    .icon-sectiont {
+        display: none;
+    }
+
+}
+
+/* ========================================== seconnd section ========================================== */
+.sell .dyson-hero {
+text-align: center;
+}
+.sell .hero-btn{
+    margin-left: 38% !important;
+}
+.sell h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+}
+.card-text{
+    color: #0e0d0d;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500 !important;
+}
+.first-card-height{
+    border-radius: 10px;
+    width: 135px;
+    border:2px solid #e1f412 !important;
+}
+.card-height{
+    height: 100%;
+    border-radius: 10px;
+    width: 135px;
+    border:2px solid #e1f412 !important;
+}
+.sell-yellow-heading h1{
+    color: #f5f235;
+    text-align: center;
+    font-size: 35px !important;
+    font-weight: 400;
+}
+.sell-contact span{
+color: white; 
+
+}
+.sell-contact .text{
+    margin-left: 32%;
+    font-size: 35px !important;
+    font-weight: 400 !important;
+}
+.sell-contact h2{
+    color: #f5f235;
+    text-align: center;
+    font-size: 25px !important;
+}
+.card-last-text span{
+color: white !important;
+font-size: 25px !important;
+}
+.card-last-text img{
+margin-left: 50%;
+}
+.sell-bottom{
+    padding-bottom: 2% !important;
+}
+
+/* ======================================== testimonail ============================================= */
+.testimonial{
+    margin-top: 15%;
+    background-color: #000000;
+}
+.testimonial-text h1{
+    color: white ;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+}
+.i-am{
+    background-color: #000000;
+    margin-top: 1%;
+}
+/* ========--------------------====================== iam ================================================ */
+.my-quote{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: -12%;
+}
+.iam-heading{
+    margin-top: 25px;
+     font-size: 27px !important;
+}
+.iam-heading-two{
+    color: #e1f412;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+.so-far{
+    font-size: 22px !important;
+    font-weight: 400;
+}
+.buying{
+    font-size: 28px !important;
+    margin-top: 35px;
+}
+.boobie{
+   margin-left: 70%;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+}
+
