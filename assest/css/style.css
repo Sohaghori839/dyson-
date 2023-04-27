@@ -206,6 +206,27 @@ margin-left: 50%;
     padding-bottom: 2% !important;
 }
 
+.hori-heading span{
+ 
+}
+
+
+
+.wrapper {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .rotate {
+    display: inline-block;
+    transform: rotate(-25deg);
+    transform-origin: center;
+    white-space: nowrap;
+    margin-right: 10px;
+  }
+  
+
+
 /* ======================================== testimonail ============================================= */
 .testimonial{
     margin-top: 15%;
