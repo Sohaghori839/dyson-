@@ -1,17 +1,21 @@
-/* body{
-    background-color: black;
-} */
-/* ============================================== main index.html page ===================================== */
-.hero-right{
-    margin: 15%;
-   
+body {
+    background-color: rgb(174, 173, 173);
+
 }
+
+/* ============================================== main index.html page ===================================== */
+
+.hero-right {
+    margin: 15%;
+
+}
+
 .hero-right h1 {
     padding-top: 10px;
     font-size: 18px !important;
 }
 
-.hero-right .dyson-hero{
+.hero-right .dyson-hero {
     text-align: center;
 }
 
@@ -26,6 +30,7 @@
     border-radius: 12px !important;
     color: white !important;
 }
+
 .clipped-section2 {
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 100%);
 
@@ -38,12 +43,31 @@
 }
 
 /* =================================== media quary for main index.html page ========================== */
+@media (max-width: 992px) {
 
+    .row-cols-7,
+    .row-cols-lg-7 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .col {
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 1720px) and (min-width: 1000px) {
-    .icon-sectiont img{
+    .icon-sectiont img {
         height: 90vh !important;
     }
+
     .hero-btn {
         font-size: 14px !important;
         margin-left: 15%;
@@ -57,16 +81,17 @@
         font-size: 12px !important;
         margin-left: 10% !important;
     }
-    .icon-sectiont img{
+
+    .icon-sectiont img {
         height: 90vh !important;
     }
 
 }
 
-@media only screen and (max-width: 768px) and (min-width: 400px){
+@media only screen and (max-width: 768px) and (min-width: 400px) {
     .hero-right span {
         text-align: right;
-        font-size: 2rem!important;
+        font-size: 2rem !important;
         font-weight: bold;
     }
 
@@ -95,138 +120,158 @@
 
 /* ========================================== seconnd section ========================================== */
 .sell .dyson-hero {
-text-align: center;
+    text-align: center;
 }
-.sell .hero-btn{
+
+.sell .hero-btn {
     margin-left: 38% !important;
 }
+
 .sell h1 {
     color: white;
     text-align: center;
     font-size: 45px;
     font-weight: 300;
 }
-.card-text{
+
+.card-text {
     color: #0e0d0d;
     font-size: 15px;
     text-align: center;
     font-weight: 500 !important;
 }
-.first-card-height{
+
+.first-card-height {
     border-radius: 10px;
     width: 135px;
-    border:2px solid #e1f412 !important;
+    border: 2px solid #e1f412 !important;
 }
-.card-height{
+
+.card-height {
     height: 100%;
     border-radius: 10px;
     width: 135px;
-    border:2px solid #e1f412 !important;
+    border: 2px solid #e1f412 !important;
 }
-.sell-yellow-heading h1{
+
+.sell-yellow-heading h1 {
     color: #f5f235;
     text-align: center;
     font-size: 35px !important;
     font-weight: 400;
 }
-.sell-contact span{
-color: white; 
+
+.sell-contact span {
+    color: white;
 
 }
-.sell-contact .text{
+
+.sell-contact .text {
     margin-left: 32%;
     font-size: 35px !important;
     font-weight: 400 !important;
 }
-.sell-contact h2{
+
+.sell-contact h2 {
     color: #f5f235;
     text-align: center;
     font-size: 25px !important;
 }
-.card-last-text span{
-color: white !important;
-font-size: 25px !important;
+
+.card-last-text span {
+    color: white !important;
+    font-size: 25px !important;
 }
-.card-last-text img{
-margin-left: 50%;
+
+.card-last-text img {
+    margin-left: 50%;
 }
-.sell-bottom{
+
+.sell-bottom {
     padding-bottom: 2% !important;
 }
 
 .wrapper {
     display: inline-block;
     text-align: center;
-  }
-  
-  .rotate {
+}
+
+.rotate {
     display: inline-block;
     transform: rotate(-25deg);
     transform-origin: center;
     white-space: nowrap;
     margin-right: 10px;
-  }
-  
-  /* ========================================== second section media quary ==================================================== */
+}
+
+/* ========================================== second section media quary ==================================================== */
 
 
 
 /* ======================================== testimonail ============================================= */
-.testimonial{
-    margin-top: 15%;
+.testimonial {
+    margin-top: 4%;
     background-color: #000000;
 }
-.testimonial-text h1{
-    color: white ;
+
+.testimonial-text h1 {
+    color: white;
     font-size: 4rem;
     font-weight: 400;
     letter-spacing: 0.2rem;
 }
-.i-am{
+
+.i-am {
     background-color: #000000;
     margin-top: 1%;
 }
 
 @media (max-width: 768px) {
     .testimonial-text h1 {
-      font-size: 3rem;
-      margin-top: 10%;
+        font-size: 3rem;
+        margin-top: 10%;
     }
-  }
-  @media (max-width: 576px) {
+}
+
+@media (max-width: 576px) {
     .i-am {
-      height: auto;
+        height: auto;
     }
-  }
-    
+}
+
 /* ========--------------------====================== iam ================================================ */
-.my-quote{
+.my-quote {
     color: white;
     text-align: center;
     font-size: 22px;
     font-weight: 400;
     margin-top: -12%;
 }
-.iam-heading{
+
+.iam-heading {
     margin-top: 25px;
-     font-size: 27px !important;
+    font-size: 27px !important;
 }
-.iam-heading-two{
+
+.iam-heading-two {
     color: #e1f412;
     font-size: 40px;
     font-weight: 300;
     margin-top: 25px;
 }
-.so-far{
+
+.so-far {
     font-size: 22px !important;
     font-weight: 400;
 }
-.buying{
+
+.buying {
     font-size: 28px !important;
     margin-top: 35px;
 }
-.boobie{
-   margin-left: 70%;
+
+.boobie {
+    margin-left: 70%;
     font-size: 30px !important;
     font-weight: 600 !important;
 }
@@ -234,66 +279,67 @@ margin-left: 50%;
 /* =================================== i ma section media quary code ================================== */
 @media only screen and (max-width: 767px) {
     .my-quote {
-      margin-top: 0;
+        margin-top: 0;
     }
-  
+
     .iam-heading {
-      font-size: 20px !important;
-      margin-top: 10px;
+        font-size: 20px !important;
+        margin-top: 10px;
     }
-  
+
     .iam-heading-two {
-      font-size: 30px;
-      margin-top: 10px;
+        font-size: 30px;
+        margin-top: 10px;
     }
-  
+
     .so-far {
-      font-size: 20px !important;
+        font-size: 20px !important;
     }
-  
+
     .buying {
-      font-size: 24px !important;
-      margin-top: 20px;
+        font-size: 24px !important;
+        margin-top: 20px;
     }
-  
+
     .boobie {
-      margin-left: 0;
-      margin-top: 20px;
-      font-size: 26px !important;
-      font-weight: 600 !important;
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 26px !important;
+        font-weight: 600 !important;
     }
-  }
-  @media (max-width: 400px) {
+}
+
+@media (max-width: 400px) {
     .my-quote {
-    font-size: 18px;
-    margin-top: -20%;
+        font-size: 18px;
+        margin-top: -20%;
     }
-    
+
     .iam-heading {
-    margin-top: 15px;
-    font-size: 20px !important;
+        margin-top: 15px;
+        font-size: 20px !important;
     }
-    
+
     .iam-heading-two {
-    font-size: 30px;
-    margin-top: 15px;
+        font-size: 30px;
+        margin-top: 15px;
     }
-    
+
     .so-far {
-    font-size: 18px !important;
+        font-size: 18px !important;
     }
-    
+
     .buying {
-    font-size: 20px !important;
-    margin-top: 25px;
+        font-size: 20px !important;
+        margin-top: 25px;
     }
-    
+
     .boobie {
-    margin-left: 50%;
-    font-size: 22px !important;
-    font-weight: 600 !important;
+        margin-left: 50%;
+        font-size: 22px !important;
+        font-weight: 600 !important;
     }
-    }
+}
 
 /* ============================================ jayne ============================ */
 .jayne-heading {
@@ -302,94 +348,135 @@ margin-left: 50%;
     font-weight: 500;
     margin-top: 25px;
 }
-.jayne-chaffin{
+
+.jayne-chaffin {
     margin-left: 70%;
     font-size: 30px !important;
     font-weight: 400 !important;
 }
+
 /* =========================================== JOE carlo============================================== */
-#joe-carocciolo{
+#joe-carocciolo {
     background-color: #000000;
-    margin-top:1%;
+    margin-top: 1%;
 }
-.joe-logo{
+
+.joe-logo {
     margin-top: 4%;
 }
-.joe-text h1{
+
+.joe-text h1 {
     text-align: center;
     color: white;
     font-size: 3rem;
-    font-weight:300 ;
+    font-weight: 300;
 }
+
 .joe-next-text {
     color: white !important;
     font-size: 2rem !important;
     text-align: center;
     font-weight: 400;
 }
-.joe-pic img{
-  height: 115vh;
-  margin-left: 1.5%;
+
+.joe-pic img {
+    height: 115vh;
+    margin-left: 1.5%;
 }
-.joe-q{
+
+.joe-q {
     color: white;
     text-align: center;
     font-size: 2rem !important;
     font-weight: 400 !important;
 }
-.pass-world{
+
+.pass-world {
     color: #eeaa30 !important;
     font-size: 30px !important;
     font-weight: 400 !important;
     margin-top: 5%;
 }
-.bottom-line{
+
+.bottom-line {
     margin-top: -7%;
 }
 
 /* ================================================= marketing-strategy ================================== */
-.marketing-q{
+.marketing-q {
     color: #f3b90c;
-    font-size:2rem;
+    font-size: 2rem;
 }
-.marketig-heading{
+
+.marketig-heading {
     margin-top: 25px;
-     font-size: 27px !important;
-     font-weight: 400;
-     line-height: 1rem;
+    font-size: 27px !important;
+    font-weight: 400;
+    line-height: 1rem;
 }
-.Owner{
+
+.Owner {
     margin-left: 80%;
     font-size: 25px !important;
     font-weight: 300 !important;
 }
-.marketing-strategy{
+
+.marketing-strategy {
     margin-top: -18%;
 }
 
 /* =============================================== money ======================================= */
 
-.money-heading{
+.money-heading {
     margin-top: 25px;
-     font-size: 32px !important;
-     font-weight: 400;
-     line-height: 1rem;
-     color:  #eeaa30;
+    font-size: 32px !important;
+    font-weight: 400;
+    line-height: 1rem;
+    color: #eeaa30;
 }
-.money-heading-2{
+
+.money-heading-2 {
     color: white;
     font-size: 2rem !important;
     font-weight: 400;
-  margin-top: 5%;
+    margin-top: 5%;
 }
-.money-heading-num{
+
+.money-heading-num {
     color: white;
     font-size: 3rem;
     font-weight: 400;
 }
-.email a{
+
+.email a {
     color: #eeaa30;
     font-size: 2rem;
     text-decoration: none;
-   font-weight: 400;
+    font-weight: 400;
+}
+
+/* =================================== Money media quary ============================================ */
+@media only screen and (max-width: 1000px) and (min-width: 788px) {
+    .money-heading  , .money-heading-2 ,.money-heading-num , .email a{
+        font-size: 22px !important;
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 780px) and (min-width: 554px) {
+    .money-heading , .money-heading-2 ,.money-heading-num , .email a {
+        font-size: 18px !important;
+        line-height: 1rem;
+        text-align: center !important;
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width:554px) and (min-width: 400px) {
+    .money-heading {
+        font-size: 15px !important;
+    }
+   
+    .money-heading-2 ,.money-heading-num , .email a{
+        
+        font-size: 24px !important;
+    }
 }
