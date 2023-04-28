@@ -4,12 +4,11 @@
 /* ============================================== main index.html page ===================================== */
 .hero-right{
     margin: 15%;
-    /* color: #423e4d; */
-    /* font-family: 'Courier New', Courier, monospace; */
+   
 }
 .hero-right h1 {
     padding-top: 10px;
-    font-size: 21px !important;
+    font-size: 18px !important;
 }
 
 .hero-right .dyson-hero{
@@ -27,25 +26,6 @@
     border-radius: 12px !important;
     color: white !important;
 }
-
-.hero-right h4 {
-    color: rgb(83, 81, 81);
-    font-size: 20px;
-    margin-top: 10%;
-    line-height: 4vh;
-    text-align: center;
-    margin-right: 10%;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.hero-left img {
-    padding: .5% .5%;
-    height: 100%;
-
-}
-
-/* code change */
-
 .clipped-section2 {
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 100%);
 
@@ -61,64 +41,32 @@
 
 
 @media only screen and (max-width: 1720px) and (min-width: 1000px) {
-    .hero-right span {
-        text-align: right;
-        font-size: 24px !important;
-        font-weight: bold;
+    .icon-sectiont img{
+        height: 90vh !important;
     }
-
-    .hero-right p {
-        font-size: 18px !important;
-        /* font-weight: bold; */
-
-    }
-
-    .hero-right h4 {
-        font-size: 42 !important;
-        padding-top: 10% !important;
+    .hero-btn {
+        font-size: 14px !important;
+        margin-left: 15%;
     }
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 768px) {
-    .hero-right span {
-        text-align: right;
-        font-size: 15px !important;
-        font-weight: bold;
-    }
-
-    .hero-right p {
-        font-size: 17px !important;
-        /* font-weight: bold; */
-
-    }
-
-    .hero-right h4 {
-        font-size: 10 !important;
-        padding-top: 10% !important;
-    }
+@media only screen and (max-width: 1000px) and (min-width: 767px) {
 
     .hero-btn {
         padding: 0px 10px 5px 10px !important;
-        /* font-size: 15px !important; */
-        /* margin-left: 10% !important; */
+        font-size: 12px !important;
+        margin-left: 10% !important;
+    }
+    .icon-sectiont img{
+        height: 90vh !important;
     }
 
 }
 
-@media only screen and (max-width: 776px) {
-    .index-bg-img {
-        background-image: url(./assest/images/real-estate.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
-        background-color: black !important;
-        background-blend-mode: soft-light !important;
-
-
-    }
-
+@media only screen and (max-width: 768px) and (min-width: 400px){
     .hero-right span {
         text-align: right;
-        font-size: 35px !important;
+        font-size: 2rem!important;
         font-weight: bold;
     }
 
@@ -139,7 +87,7 @@
         /* margin-left: 10% !important; */
     }
 
-    .icon-sectiont {
+    .clipped-section2 {
         display: none;
     }
 
@@ -219,6 +167,8 @@ margin-left: 50%;
     margin-right: 10px;
   }
   
+  /* ========================================== second section media quary ==================================================== */
+
 
 
 /* ======================================== testimonail ============================================= */
@@ -236,6 +186,19 @@ margin-left: 50%;
     background-color: #000000;
     margin-top: 1%;
 }
+
+@media (max-width: 768px) {
+    .testimonial-text h1 {
+      font-size: 3rem;
+      margin-top: 10%;
+    }
+  }
+  @media (max-width: 576px) {
+    .i-am {
+      height: auto;
+    }
+  }
+    
 /* ========--------------------====================== iam ================================================ */
 .my-quote{
     color: white;
